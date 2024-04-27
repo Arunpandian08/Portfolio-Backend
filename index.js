@@ -6,7 +6,7 @@ import routers from "./Routers/PortfolioRouters.js";
 dotenv.config();
 const app = express();
 app.use(cors({
-    origin:'https://arun-react-portfolio-123.netlify.app/'
+    origin:'https://arun-react-portfolio-123.netlify.app'
 }));
 
 app.use(express.json());
